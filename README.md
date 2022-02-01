@@ -1,0 +1,3 @@
+# sel-mav
+
+RUN TEST USING MAVEN & GROUPING.
