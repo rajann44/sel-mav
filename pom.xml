@@ -19,7 +19,6 @@
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>7.5</version>
-        <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
@@ -39,6 +38,12 @@
         <artifactId>htmlunit-driver</artifactId>
         <version>3.56.0</version>
     </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.1.7</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -17,4 +17,8 @@ public class DriverController {
         return driver;
     }
 
+    public static void closeBrowser(){
+        driver.quit();
+    }
+
 }
